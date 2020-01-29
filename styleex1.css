@@ -1,0 +1,84 @@
+
+
+
+
+
+body {
+  background-image: url(./photos/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background: maroon;
+  height: 100px;
+  color: darkgreen;
+  font-size: 1rem;
+  width: 50%;
+  outline-style: dotted;
+  outline-color: ivory;
+  outline-offset: 7px;
+  border-style: groove;
+  border-color: darkgreen;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+ }
+
+header {
+  color: rgb(226, 77, 77);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 3rem;
+  transition: ease-in-out;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  transition-timing-function: ease-in;
+}
+
+h1 {
+  color: maroon;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+p {
+  color: rgb(45, 68, 3);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(26, 23, 23);
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+button {
+  padding: 3px 3px;
+}
+
+button:hover {
+  color: green;
+  background-color: black;
+}
